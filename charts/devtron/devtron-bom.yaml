@@ -9,7 +9,8 @@ global:
     runAsNonRoot: true
 
 installer:
-  release: "v0.6.15"
+  repo: "Shivam-nagar23/devtron"
+  release: "v0.6.16"
   image: "quay.io/devtron/inception"
   tag: "44b30917-185-13275"
   
