@@ -38,7 +38,7 @@ components:
         GIT_HASH: "0c07299578342bf90368b88f47a2c0e7b8c8f0cd"
       casbin:
         GIT_BRANCH: "main"
-        GIT_HASH: "quay.io/devtron/test:66f042ee-2530-2770"
+        GIT_HASH: "0c07299578342bf90368b88f47a2c0e7b8c8f0cd"
         
 argo-cd:
   global:
