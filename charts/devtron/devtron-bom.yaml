@@ -16,10 +16,10 @@ installer:
   
 components:
   dashboard:
-    image: "quay.io/devtron/test:f592cd3f-2553-2832"
+    image: "quay.io/devtron/test:974afe39-2553-2836"
   devtron:
-    image: "quay.io/devtron/test:f530f341-2551-2831"
-    cicdImage: "quay.io/devtron/test:f530f341-2551-2831"
+    image: "quay.io/devtron/test:e1622959-2551-2835"
+    cicdImage: "quay.io/devtron/test:e1622959-2551-2835"
   argocdDexServer:
     image: "ghcr.io/dexidp/dex:v2.30.2"
     initContainer:
