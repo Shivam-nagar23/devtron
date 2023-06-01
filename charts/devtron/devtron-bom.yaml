@@ -18,8 +18,8 @@ components:
   dashboard:
     image: "quay.io/devtron/test:977bc61c-2553-5082"
   devtron:
-    image: "quay.io/devtron/test:7f8f7ef5-2551-5076"
-    cicdImage: "quay.io/devtron/test:7f8f7ef5-2551-5076"
+    image: "quay.io/devtron/test:180cd755-2551-5083"
+    cicdImage: "quay.io/devtron/test:180cd755-2551-5083"
   argocdDexServer:
     image: "ghcr.io/dexidp/dex:v2.30.2"
     initContainer:
