@@ -16,10 +16,10 @@ installer:
   
 components:
   dashboard:
-    image: "quay.io/devtron/test:977bc61c-2553-5096"
+    image: "quay.io/devtron/test:f8eaa5f9-2553-5150"
   devtron:
-    image: "quay.io/devtron/test:42dd2263-2551-5095"
-    cicdImage: "quay.io/devtron/test:42dd2263-2551-5095"
+    image: "quay.io/devtron/test:7a926a55-2551-5151"
+    cicdImage: "quay.io/devtron/test:7a926a55-2551-5151"
   argocdDexServer:
     image: "ghcr.io/dexidp/dex:v2.30.2"
     initContainer:
@@ -49,7 +49,7 @@ argo-cd:
 
 security:
   imageScanner:
-    image: "quay.io/devtron/test:daa503ee-2530-5093"
+    image: "quay.io/devtron/test:daa503ee-2530-5097"
 
 notifier:
   image: "quay.io/devtron/notifier:6c7a356a-372-11107"
