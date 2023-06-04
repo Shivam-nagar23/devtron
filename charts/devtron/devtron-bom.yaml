@@ -16,10 +16,10 @@ installer:
   
 components:
   dashboard:
-    image: "quay.io/devtron/test:eb4326b7-2553-5152"
+    image: "quay.io/devtron/test:4d85725b-2553-5251"
   devtron:
-    image: "quay.io/devtron/test:22d8cc2b-2551-5208"
-    cicdImage: "quay.io/devtron/test:22d8cc2b-2551-5208"
+    image: "quay.io/devtron/test:fba77b70-2551-5252"
+    cicdImage: "quay.io/devtron/test:fba77b70-2551-5252"
   argocdDexServer:
     image: "ghcr.io/dexidp/dex:v2.30.2"
     initContainer:
@@ -35,10 +35,10 @@ components:
     envVars:
       devtron:
         GIT_BRANCH: "main"
-        GIT_HASH: "f155ef4d69f2449c07fa2564df8b5f4c002e5913"
+        GIT_HASH: "4724dc4278f59d0398438d19552ec158aa05ebbf"
       casbin:
         GIT_BRANCH: "main"
-        GIT_HASH: "f155ef4d69f2449c07fa2564df8b5f4c002e5913"
+        GIT_HASH: "4724dc4278f59d0398438d19552ec158aa05ebbf"
         
 argo-cd:
   global:
@@ -49,7 +49,7 @@ argo-cd:
 
 security:
   imageScanner:
-    image: "quay.io/devtron/test:6f22592b-2530-5154"
+    image: "quay.io/devtron/test:3015282e-2630-5250"
 
 notifier:
   image: "quay.io/devtron/notifier:6c7a356a-372-11107"
